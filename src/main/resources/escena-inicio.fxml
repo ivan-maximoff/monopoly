@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.layout.HBox?>
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-min-width: 600; -fx-min-height: 600;" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.monopoly.controller.SeleccionadorController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-min-width: 700; -fx-min-height: 600;">
+         <children>
+            <Label alignment="CENTER" style="-fx-min-width: 700; -fx-min-height: 80; -fx-background-color: #8FBC72;" text="MONOPOLY">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="instruccion" alignment="CENTER" style="-fx-background-color: BFDBAE; -fx-min-width: 700; -fx-min-height: 40;" text="Seleccionar Jugadores (2 a 4)">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+
+            <HBox fx:id="botonera1" VBox.vgrow="ALWAYS" spacing="15" alignment="CENTER" style="-fx-min-width: 700; -fx-min-height: 35; -fx-background-color: BFDBAE; -fx-line-spacing: 20;">
+
+            </HBox>
+            <HBox fx:id="botonera2" VBox.vgrow="ALWAYS" spacing="15" alignment="CENTER" style="-fx-min-width: 700; -fx-min-height: 35; -fx-background-color: BFDBAE; -fx-line-spacing: 20;">
+
+            </HBox>
+            <HBox fx:id="botonera3" VBox.vgrow="ALWAYS" spacing="15" alignment="CENTER" style="-fx-min-width: 700; -fx-min-height: 35; -fx-background-color: BFDBAE; -fx-line-spacing: 20;">
+
+            </HBox>
+
+
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" style="-fx-border-color: black; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label prefHeight="100.0" prefWidth="450.0" />
+
+      <Label alignment="CENTER" minHeight="150.0" maxHeight="Infinity" prefWidth="450.0" text="Label" VBox.vgrow="ALWAYS" style="-fx-background-color: #BFDBAE;"/>
+   </children>
+</VBox>
